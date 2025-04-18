@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assef Naderi Cookie Clicker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="startGame()">
+  <header>
+    <h1 id="logo">Assef Naderi</h1>
+  </header>
+
+  <main>
+    <img id="cookie" src="https://cdn.pixabay.com/photo/2017/05/07/08/56/cookie-2296868_960_720.png" alt="Cookie">
+    <p id="cookieCount">Kekse: 0</p>
+    <button id="buyOma" onclick="buyUpgrade()">Oma kaufen (Kosten: 10 Kekse)</button>
+    <p id="omas">Omas: 0</p>
+  </main>
+
+  <audio id="clickSound" src="https://www.fesliyanstudios.com/play-mp3/387"></audio>
+  <audio id="bgMusic" src="https://www.fesliyanstudios.com/play-mp3/6615" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
